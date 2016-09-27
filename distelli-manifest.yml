@@ -1,4 +1,4 @@
-bmcgehee/k8s-wordpress:
+bmcgehee2/k8s-wordpress:
   Build:
     - echo "Nothing to build"
   PkgInclude:
