@@ -9,6 +9,6 @@ ENV WORDPRESS_DB_HOST=10.15.1.128 \
     
 EXPOSE 8080
 
-RUN sudo apt-get update && \
-    sudo apt-get install telnet net-tools
+RUN apt-get update && \
+    apt-get install telnet net-tools
     
