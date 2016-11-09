@@ -2,7 +2,7 @@ FROM wordpress
 
 VOLUME  ["/var/www/html/wp-content"]
 
-#ENV WORDPRESS_DB_HOST=10.12.1.2 \
+ENV WORDPRESS_DB_HOST=127.0.0.1
 ENV WORDPRESS_DB_PASSWORD=alexiscool
     
 EXPOSE 80
