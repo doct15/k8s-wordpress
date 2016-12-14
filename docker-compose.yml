@@ -12,4 +12,4 @@ services:
   db:
     image: orchardup/mysql
     environment:
-      MYSQL_DATABASE: wordpress
+      MYSQL_DATABASE: wordpress 
