@@ -1,6 +1,6 @@
 FROM wordpress
 
-ENV Testing=test3
+ENV TEST=testing6
 
 VOLUME  ["/var/www/html"]
 
