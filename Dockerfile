@@ -1,7 +1,7 @@
 FROM wordpress
 
 RUN apt-get -y update
-RUN apt-get install -y sed net-tools vim
+RUN apt-get install -y sed net-tools vim iputils-ping
 
 VOLUME  ["/var/www/html"]
 
